@@ -1,13 +1,13 @@
-# variable "AWS_ACCESS_KEY_ID" {
-#   description = "Value of access key for aws"
-#   type        = string
-# }
+variable "AWS_ACCESS_KEY_ID" {
+  description = "Value of access key for aws"
+  type        = string
+}
 
-# variable "AWS_SECRET_KEY_ID" {
-#   description = "Value of secret key for aws"
-#   type        = string
-#   sensitive = true
-# }
+variable "AWS_SECRET_KEY_ID" {
+  description = "Value of secret key for aws"
+  type        = string
+  sensitive = true
+}
 
 variable "vpc_name" {
   description = "Value of the vpc name"

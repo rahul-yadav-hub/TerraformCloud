@@ -24,6 +24,8 @@ terraform {
 // Define provider
 provider "aws" {
   region  = "ap-south-1"
+  AWS_SECRET_KEY_ID = var.AWS_SECRET_KEY_ID
+  AWS_ACCESS_KEY_ID = var.AWS_ACCESS_KEY_ID
 }
 
 // Define VPC resources
